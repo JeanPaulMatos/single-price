@@ -1,0 +1,19 @@
+/* --------------- VARIABLES -------------- */
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --limon: hsl(71, 73%, 54%);
+    --gris-claro: hsl(204, 43%, 93%);
+    --azul-grisaceo: hsl(218, 22%, 67%);
+    
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    margin: 0; 
+    padding: 0;
+    background: var(--gris-claro);
+}
+
+
+
