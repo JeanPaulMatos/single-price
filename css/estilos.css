@@ -66,19 +66,34 @@ section {
 .suscription {
     background: var(--cyan);
     padding: 50px;
+    color: white;
+    text-align: justify;
 }
 
-.title-h2 {
-    font-size: 20px;
+.suscription h2 {
+    font-size: 18px;
+    color: var(--gris-claro); 
+    margin-bottom: 22px;
 }
 
 .dolar {
     font-size: 36px;
     font-weight: 700;
+    padding-right: 10px;
 }
 
-.suscription p {
-    font-size: 16px;
+.p-container {
+    font-size: 18px;
+    color: var(--gris-claro); 
+    display: flex;
+    align-items: center;
+}
+
+.p-space {
+    color: var(--gris-claro); 
+    font-size: 21.5px;
+    text-align: justify;
+    margin: -8px 0 57px 0;
 }
 
 .suscription a {
@@ -88,13 +103,17 @@ section {
     border-radius: 5px;
     font-size: 16px;
     font-weight: 700;
+    border: 0.5px solid var(--azul-grisaceo);
+    box-sizing: border-box;
 }
 
 .why-us {
     background: var(--cyan-claro);
-    padding: 50px;
-    
+    padding: 50px;   
 }
 
-
+.why-us h2 {
+    font-size: 18px;
+    color: var(--gris-claro); 
+}
 
