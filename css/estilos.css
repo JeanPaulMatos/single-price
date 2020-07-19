@@ -25,13 +25,10 @@ a {
 }
 
 main {
-    background: yellow;
-    margin: 150px 300px;
+    background: white;
+    margin: 10% 18%;
 }
 
-section {
-    background: pink;
-}
 .container {
     padding: 50px;
 }
@@ -46,21 +43,22 @@ section {
 .main-content h3 {
     font-size: 18px;
     color: var(--limon);
+    padding-bottom: 15px;
 }
 
 .main-content p {
     font-size: 16px;
-    color: var(--gris-claro);
+    color: var(--azul-grisaceo);
     margin: 0;
+    line-height: 25px;
 }
 
 
 /* ------------- SECTION DOWN ---------- */
 .container-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     background: var(--cyan);
-
 }
 
 .suscription {
@@ -91,20 +89,22 @@ section {
 
 .p-space {
     color: var(--gris-claro); 
-    font-size: 21.5px;
-    text-align: justify;
-    margin: -8px 0 57px 0;
+    font-size: 18px;
+    text-align: ;
+    margin: -8px 0 40px 0;
 }
 
-.suscription a {
+.suscription button {
     background: var(--limon);
-    padding: 20px 130px;
+    padding: 20px 0;
     color: white;
     border-radius: 5px;
     font-size: 16px;
     font-weight: 700;
-    border: 0.5px solid var(--azul-grisaceo);
+    border: none;
     box-sizing: border-box;
+    cursor: pointer;
+    width: 100%;
 }
 
 .why-us {
@@ -114,6 +114,12 @@ section {
 
 .why-us h2 {
     font-size: 18px;
+    padding-bottom: 6px;
+    color: white;
+}
+
+.why-us p {
+    line-height: 10px;
     color: var(--gris-claro); 
 }
 
