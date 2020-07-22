@@ -119,7 +119,7 @@ main {
 }
 
 .why-us p {
-    line-height: 10px;
+    line-height: 18px;
     color: var(--gris-claro); 
 }
 
@@ -184,6 +184,7 @@ main {
 
     .why-us p {
         font-size: 12px;
+        line-height: 10px;
     }
 }
 
