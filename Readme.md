@@ -1,9 +1,9 @@
 # Practice Frontend Mentor - Single Price Grid Component
 
-![Desktop Design](desktop-design.png "Desktop Design")
+![Desktop Design](images/desktop-design.png "Desktop Design")
 
 
-Welcome! :raised_hands:
+## Welcome! :wave:
 
 This is the first project in which I worked applying the knowledge that I´ve been acquiring throughout this time as Frontend Developer
 
@@ -16,6 +16,7 @@ This is the first project in which I worked applying the knowledge that I´ve be
 * Media Queries
 * Variables Css
 
+
 ## Link del proyecto
 
-<!-- [single-price.com](https://) -->
+[https://www.single-price.com](https://jeanpaulmatos.github.io/single-price/ "Single Price Grid Component")
